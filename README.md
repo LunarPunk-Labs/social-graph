@@ -4,7 +4,7 @@ identity formed by connections and activities
 
 ## Loading sequence
 
-![image](https://drive.google.com/file/d/1Ox3-bqufaVwIdLdylGZH3aqhEMejW1qY/view?usp=sharing)
+![image](angular_seq.png)
 
 ## Holochain setup
 
