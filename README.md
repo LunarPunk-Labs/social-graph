@@ -1,5 +1,11 @@
 # Social Graph
 
+identity formed by connections and activities
+
+## Loading sequence
+
+![image](angular_seq.png)
+
 ## Holochain setup
 
 uses version 0.49-alpha1.  
