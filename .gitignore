@@ -7,7 +7,13 @@
 /dna/test/package-lock.json
 /dna/test/node_modules
 /dna/zomes/profiles/code/target/*
-/dna/zomes/profiles/code/.hcbuild
+
+/dna-new/dist
+/dna-new/.cargo/
+/dna-new/target/
+/dna-new/test/package-lock.json
+/dna-new/test/node_modules
+
 # Only exists if Bazel was run
 /bazel-out
 /SocialGraphElectron
