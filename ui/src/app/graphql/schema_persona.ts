@@ -2,21 +2,22 @@
 
 export const typeDefs =`
   type Persona {
-    name: String
-    fields: [PersonaField!]!
+    pid: ID!
+    name: String!
+    fields: [PersonaField]!
   }
   type PersonaField {
-    name: String
-    data: String
+    name: String!
+    data: String!
   }
   type PersonaSpec {
-    name: String
+    name: String!
   }
   type Query {
     personas: [Persona!]!
   }
   type Mutation {
-    addPersonaField(username: String!): Agent!
+    createPersona(spec: PersonaSpec!)
   }
 `;
 
@@ -37,4 +38,12 @@ export const typeDefs =`
     pub fn create_mapping(mapping: profile::ProfileMapping) -> ZomeApiResult<profile::MapFieldsResult> 
     pub fn saved(ui: String, location: String) -> ZomeApiResult<()> 
     pub fn retrieve(retriever_dna: Address, profile_field: String) -> ZomeApiResult<RawString>
+
+    type ProfileMapping {
+      retriever_dna: ID!,
+      profile_field_name: String,
+      persona_address: ID!,
+      persona_field_name: String
+    }
+
   */

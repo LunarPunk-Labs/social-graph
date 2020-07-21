@@ -11,8 +11,8 @@ public_address = 'HcScjN8wBwrn3tuyg89aab3a69xsIgdzmX5P9537BqQZ5A7TEZu7qCY4Xzzjhm
 test_agent = true
 
 [[dnas]]
-file = '/Users/futorine/dev/holochain/social-graph/dna/dist/dna.dna.json'
-hash = 'QmPDsomtZwiD7GEVfWUirQ96RCatRZA9AFyd2adrXQsrPY'
+file = '/Users/futorine/dev/holochain/social-graph/social-graph/dna-new/dist/dna-new.dna.json'
+hash = 'QmWGdjuQY4zVEuc35eLbgtu9U1EnXVVGzs7zfv7tXz2YuG'
 id = 'hc-run-dna'
 
 [[instances]]

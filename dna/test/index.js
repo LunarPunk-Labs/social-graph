@@ -25,6 +25,7 @@ const dnaPath = path.join(__dirname, "../dist/example-dna.dna.json");
 const dna = Config.dna(dnaPath, "scaffold-test");
 const conductorConfig = Config.gen(
   { profiles: dna },
+  { logger: Config.logger({type:"error"}) },
   {
     network: {
       type: "sim2h",

@@ -28,7 +28,7 @@ module.exports = scenario => {
     }
   }
 
-  const { config1 } = require('../config')
+ // const { config1 } = require('../config')
 
   scenario('Can create a persona', async (s, t) => {
     const {player1} = await s.players({player1: config1}, true)
