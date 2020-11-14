@@ -1,16 +1,26 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
-/tmp
-/out-tsc
+/dna/dist
+/dna/.cargo/
+/dna/target/
+/dna/test/package-lock.json
+/dna/test/node_modules
+/dna/zomes/profiles/code/target/*
+
+/dna-new/dist
+/dna-new/.cargo/
+/dna-new/target/
+/dna-new/test/package-lock.json
+/dna-new/test/node_modules
+
 # Only exists if Bazel was run
 /bazel-out
+/SocialGraphElectron
 
 # dependencies
 /node_modules
 
-/SocialGraphElectron
 # profiling files
 chrome-profiler-events*.json
 speed-measure-plugin*.json
