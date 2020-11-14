@@ -12,8 +12,8 @@ export class HomeComponent {
   constructor(private router: Router) { }
 
   ngOnInit() {
-    if (!sessionStorage.getItem("userhash"))
-      this.router.navigate(["signup"]);
+    //if (!sessionStorage.getItem("userhash"))
+      //this.router.navigate(["signup"]);
   }
 
   logout(){
